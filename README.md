@@ -49,9 +49,13 @@ This aligns with known biological differences between the Gentoo, Chinstrap, and
 git clone https://github.com/PranayDomal/Ramdom_Forest_Penguins_Dataset.git
 ```
 2. Navigate to the folder:
+```
 cd Ramdom_Forest_Penguins_Dataset
-3. Run the notebook:
+```
+4. Run the notebook:
+```
 jupyter notebook Ramdom_Forest_Penguins_Dataset.ipynb
+```
 
 --- 
 
