@@ -24,6 +24,7 @@ A core component of this project is the use of the `ColumnTransformer` and `Pipe
 | Numerical    | `bill_length_mm`, `bill_depth_mm`, `flipper_length_mm`, `body_mass_g` | Median imputation for missing values                            |
 | Categorical  | `island`, `sex`                                                       | Mode imputation for missing values followed by One-Hot Encoding |
 
+---
 
 ## **Key Results**
 The Random Forest model achieved high and stable performance on the classification task.
@@ -31,6 +32,8 @@ The Random Forest model achieved high and stable performance on the classificati
 | -------------- | ----------------------------------------- |
 | Accuracy Score | 97.7% on the test set                     |
 | Robustness     | Strong F1-scores across all three species |
+
+---
 
 ## **Feature Importance**
 Analysis of the Random Forest feature importances clearly indicated that certain morphological characteristics are the most crucial predictors of species:
